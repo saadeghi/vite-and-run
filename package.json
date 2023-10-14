@@ -1,0 +1,19 @@
+{
+  "name": "vite-and-run",
+  "version": "1.0.0",
+  "description": "Start Vite dev server in the current directory and run a custom command whenever a file changes",
+  "author": "Pouya Saadeghi",
+  "license": "MIT",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "vite-and-run": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "vite": "^4",
+    "vite-plugin-watch-and-run": "^1"
+  }
+}
